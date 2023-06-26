@@ -1,0 +1,80 @@
+.navbar {
+    background-color: #f1f1f1;
+    height: 100%;
+    width: 150px;
+    position: fixed;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    word-spacing: 10ch;
+    box-shadow:10px blue;
+  }
+  
+  .navbar li {
+    border-left: 3px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 55px;
+  }
+  
+  .navbar li:first-child {
+    border-left: none;
+  }
+  
+  .navbar li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  ul li a:hover{
+background: rgb(168, 7, 141);
+color: blue;
+  }
+
+
+  h2{
+    color: white;
+  }
+  .content {
+    margin-left: 150px; /* Adjust this value to match the width of the navbar */
+    padding: 20px;
+ 
+  }
+
+  .couplee1{
+    background-color: #eb2387;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+  }
+  
+  .couplee2{
+    background-color: #f50c20;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+  }
+  
+  .couplee3{
+    background-color: #13b4f3;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+  }
+  
+  .doi{
+    align-items: end;
+    padding-left: 250px;
+  }
+ 
+  .row{
+    padding-right: 30px;
+  }

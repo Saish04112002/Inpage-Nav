@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <style>
+        
+button {
+ --color: #560bad;
+ font-family: inherit;
+ display: inline-block;
+ width: 8em;
+ height: 2.6em;
+ line-height: 2.5em;
+ margin: 20px;
+ position: relative;
+ overflow: hidden;
+ border: 2px solid var(--color);
+ transition: color .5s;
+ z-index: 1;
+ font-size: 17px;
+ border-radius: 6px;
+ font-weight: 500;
+ color: var(--color);
+}
+
+button:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ background: var(--color);
+ height: 150px;
+ width: 200px;
+ border-radius: 50%;
+}
+
+button:hover {
+ color: #fff;
+}
+
+button:before {
+ top: 100%;
+ left: 100%;
+ transition: all .7s;
+}
+
+button:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+button:active:before {
+ background: #3a0ca3;
+ transition: background 0s;
+}
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <hr>
+          <li><a href="info.html">Information</a></li>
+          <hr>
+          <li><a href="guid.html">Guide</a></li>
+          <hr>
+          <li><a href="contact.html">Contact</a></li>
+          <hr>       
+        </ul>
+      </div>
+    
+      <div class="content">
+        <!-- Page content goes here -->
+ 
+
+<!--Slant blocks1-->
+<div class="couplee2">
+    <div class="container-fluid">
+       <div class="row">
+          <div class="col-md-7">
+             <div class="titlepage text_align_left">
+                <h1 style="color: #EBEBEB;">Guidance</h1>
+                <h3 style="color: #EBEBEB;">Get Guidance.</h3>
+                <div class="para1">
+                <p style="font-size: larger;">Guidance and counselling help to remove undesirable traits by recognising one's talents and abilities and also help develop an optimistic outlook. They also aid in developing resourcefulness and self-direction in adapting to the changes in society.</p>
+                <button> 
+                  <a href="guid.html" style="color:#000000;" style="text-decoration: none;">Get Guidance</a>
+                </button>  
+                </div>
+             </div>
+          </div>
+          <div class="col-md-5">
+             <div class="doi">
+                <figure><img src="img/Ask, Seek, Knock_ How to Seek God’s Guidance.jpeg" height="350"  width="500" alt="fig1"/></figure>
+             </div>
+          </div>
+       </div>
+    </div>
+  </div> 
+  <!--End Slant blocks1-->
+<hr>
+  
+<!--Slant blocks2-->
+<div class="couplee2">
+    <div class="container-fluid">
+       <div class="row">
+          <div class="col-md-7">
+             <div class="titlepage text_align_left">
+                <h1 style="color: #EBEBEB;">Information</h1>
+                <h3 style="color: #EBEBEB;">Get Information.</h3>
+                <div class="para1">
+                <p style="font-size: larger;">Information is an essential component of our daily lives, and the need for information is pervasive across various domains. From personal growth to economic development, access to relevant and accurate information is critical to making informed decisions and achieving our goals.</p>
+                <button> 
+                  <a href="info.html" style="color:#000000;" style="text-decoration: none;">Get Information</a>
+                </button>  
+                </div>
+             </div>
+          </div>
+          <div class="col-md-5">
+             <div class="doi">
+                <figure><img src="img/updates ann.png"height="350"  width="600" alt="fig1"/></figure>
+             </div>
+          </div>
+       </div>
+    </div>
+  </div> 
+  <!--End Slant blocks2-->
+<hr>
+  
+<!--Slant blocks3-->
+<div class="couplee2">
+    <div class="container-fluid">
+       <div class="row">
+          <div class="col-md-7">
+             <div class="titlepage text_align_left">
+                <h1 style="color: #EBEBEB;">Contact Us</h1>
+                <h3 style="color: #EBEBEB;">Solve Your Queries.</h3>
+                <div class="para1">
+                <p style="font-size: larger;"> Generally, visitors can also leave feedback or ask questions through these channels. You’ll receive valuable information about your customers’ preferences and expectations if done correctly..</p>
+                <button> 
+                  <a href="contact.html" style="color:#000000;" style="text-decoration: none;">Contact Us</a>
+                </button>  
+                </div>
+             </div>
+          </div>
+          <div class="col-md-5">
+             <div class="doi">
+                <figure><img src="./img/contact us concept.png"height="350"  width="600" alt="fig1"/></figure>
+             </div>
+              
+          </div>
+       </div>
+    </div>
+  </div> 
+  <!--End Slant blocks3-->
+<hr>
+        
+      </div>
+</body>
+</html>
